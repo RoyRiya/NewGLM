@@ -1,0 +1,18 @@
+#index=/mnt/sdb2/research/wvlm/trec/index/
+#retrieve.num_wanted=1000
+retrieve.use_wv=true
+
+wv.index=/home/riya/mod
+
+query.file=/home/riya/Desktop/trec_query.xml
+retrieve.wv_results_file=/home/riya/Desktop/res-file-JM.txt
+
+stopfile=/home/riya/smart-stopwords
+
+#alpha+beta+lambda=1
+retrieve.alpha=0
+retrieve.beta=0
+retrieve.gamma=0.5
+
+#mu is not related to the above
+#retrieve.mu=0.6
